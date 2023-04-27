@@ -174,6 +174,10 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 ```
+Developed by : VISHRANTHI A
+Register no.:212221230124
+```
+```
 #include "main.h"
 #include"lcd.h"
 void SystemClock_Config(void);
