@@ -187,10 +187,10 @@ int main(void)
     Lcd_PinType pins[] = {GPIO_PIN_3, GPIO_PIN_2, GPIO_PIN_1, GPIO_PIN_0};
     Lcd_HandleTypeDef lcd;
     lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
-    Lcd_cursor(&lcd, 0,5);
-    Lcd_string(&lcd, "NAVEEN M");
-    Lcd_cursor(&lcd, 1,7);
-    Lcd_string(&lcd, "212222110029");
+    Lcd_cursor(&lcd, 0,1);
+    Lcd_string(&lcd, "VISHRANTHI a");
+    Lcd_cursor(&lcd, 1,1);
+    Lcd_string(&lcd, "212221230124");
   while (1)
   {
 	  for ( int x = 1; x <= 200 ; x++ )
@@ -265,6 +265,7 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
+![a](https://user-images.githubusercontent.com/93427278/234899310-82619f78-5f9f-4506-8e2f-8611f830041d.png)
 
  
 ## Result :
